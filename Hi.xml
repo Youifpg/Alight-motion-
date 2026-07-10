@@ -1,0 +1,45 @@
+```xml
+<?xml version='1.0' encoding='UTF-8' ?>
+<scene title="Shake Only Preset" width="1080" height="1080" exportWidth="1920" exportHeight="1080" bgcolor="#FF000000" totalTime="416" fps="60" modifiedTime="0" amver="859" ffver="107" am="com.alightcreative.motion/6.2.53" amplatform="ios" precompose="dynamicResolution" retime="freeze">
+
+  <shape id="1" startTime="0" endTime="416" fillType="color" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000"/>
+      <scale value="5.400000,5.400000"/>
+    </transform>
+    <fillColor value="#00000000"/>
+    <effect id="com.alightcreative.effects.oscillate3" locallyApplied="true">
+      <property name="angle" type="float">
+        <kf t="0.000000" v="5.800000"/>
+        <kf t="0.968992" v="200.000000"/>
+      </property>
+      <property name="freq" type="float" value="2.500000"/>
+      <property name="mag" type="float">
+        <kf t="0.000000" v="100.000000"/>
+        <kf t="0.968992" v="30.000000"/>
+      </property>
+      <property name="phase" type="float" value="0.500000"/>
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate3" locallyApplied="true">
+      <property name="angle" type="float">
+        <kf t="0.000000" v="5.800000"/>
+        <kf t="0.968992" v="200.000000"/>
+      </property>
+      <property name="freq" type="float" value="2.500000"/>
+      <property name="mag" type="float">
+        <kf t="0.000000" v="100.000000"/>
+        <kf t="0.968992" v="30.000000"/>
+      </property>
+      <property name="phase" type="float" value="0.500000"/>
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float">
+        <kf t="0.000000" v="2.700000"/>
+        <kf t="0.967086" v="0.000000"/>
+      </property>
+    </effect>
+    <property name="size" type="vec2" value="540.000000,540.000000"/>
+  </shape>
+
+</scene>
+```
