@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<scene title="Soft Y Shake Parent" width="1080" height="1080" exportWidth="1920" exportHeight="1080" bgcolor="#00000000" totalTime="600" fps="60" modifiedTime="0" amver="859" ffver="107" am="com.alightcreative.motion/6.2.53" amplatform="ios" precompose="dynamicResolution" retime="freeze">
+
+  <nullobj id="1" label="Y Shake Parent" startTime="0" endTime="600">
+    <transform>
+      <location>
+        <kf t="0.000000" v="540.000000,540.000000,0.000000"/>
+        <kf t="0.083333" v="540.000000,548.000000,0.000000" e="cubicBezier 0.20 0.00 0.30 1.00"/>
+        <kf t="0.166667" v="540.000000,533.000000,0.000000" e="cubicBezier 0.20 0.00 0.30 1.00"/>
+        <kf t="0.266667" v="540.000000,545.000000,0.000000" e="cubicBezier 0.20 0.00 0.30 1.00"/>
+        <kf t="0.400000" v="540.000000,536.000000,0.000000" e="cubicBezier 0.20 0.00 0.30 1.00"/>
+        <kf t="0.583333" v="540.000000,542.000000,0.000000" e="cubicBezier 0.20 0.00 0.30 1.00"/>
+        <kf t="0.750000" v="540.000000,538.000000,0.000000" e="cubicBezier 0.20 0.00 0.30 1.00"/>
+        <kf t="1.000000" v="540.000000,540.000000,0.000000" e="cubicBezier 0.20 0.00 0.30 1.00"/>
+      </location>
+      <scale>
+        <kf t="0.000000" v="1.000000,1.000000"/>
+        <kf t="0.083333" v="1.010000,1.010000"/>
+        <kf t="0.166667" v="0.998000,0.998000"/>
+        <kf t="0.266667" v="1.008000,1.008000"/>
+        <kf t="0.400000" v="1.000000,1.000000"/>
+        <kf t="0.583333" v="1.004000,1.004000"/>
+        <kf t="0.750000" v="0.999000,0.999000"/>
+        <kf t="1.000000" v="1.000000,1.000000"/>
+      </scale>
+      <rotation>
+        <kf t="0.000000" v="0.000000"/>
+        <kf t="1.000000" v="0.000000"/>
+      </rotation>
+    </transform>
+  </nullobj>
+
+  <shape id="2" startTime="0" endTime="600" fillType="color" s=".rect" parent="1">
+    <transform>
+      <location value="540.000000,540.000000,0.000000"/>
+      <scale value="5.400000,5.400000"/>
+    </transform>
+    <fillColor value="#00000000"/>
+  </shape>
+
+</scene>
