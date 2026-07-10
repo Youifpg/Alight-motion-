@@ -1,4 +1,3 @@
-```xml
 <?xml version='1.0' encoding='UTF-8' ?>
 <!-- TikTok edit remake base: zoom + flash + shake + glitch system -->
 <scene title="TikTok Edit Remake Base" width="1080" height="1080" exportWidth="1920" exportHeight="1080" bgcolor="#FF000000" totalTime="18500" fps="60" modifiedTime="0" amver="859" ffver="107" am="com.alightcreative.motion/6.2.53" amplatform="ios" precompose="dynamicResolution" retime="freeze">
@@ -322,4 +321,3 @@
   </shape>
 
 </scene>
-```
