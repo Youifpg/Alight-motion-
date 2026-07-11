@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<scene title="Soft Y Oscillate Shake" width="1080" height="1080" exportWidth="1920" exportHeight="1080" bgcolor="#FF000000" totalTime="500" fps="60" modifiedTime="0" amver="859" ffver="107" am="com.alightcreative.motion/6.2.53" amplatform="ios" precompose="dynamicResolution" retime="freeze">
+<scene title="Identical Soft Shake" width="1080" height="1080" exportWidth="1920" exportHeight="1080" bgcolor="#FF000000" totalTime="500" fps="60" modifiedTime="0" amver="859" ffver="107" am="com.alightcreative.motion/6.2.53" amplatform="ios" precompose="dynamicResolution" retime="freeze">
 
   <media uri="am-internal:///REPLACE_CLIP.MP4" type="video/mp4" duration="500" size="0" fps="60" width="1080" height="1080"/>
 
@@ -11,22 +11,22 @@
 
     <effect id="com.alightcreative.effects.tile" locallyApplied="true">
       <property name="mirror" type="bool" value="true"/>
-      <property name="scale" type="float" value="1.008000"/>
+      <property name="scale" type="float" value="1.010000"/>
     </effect>
 
     <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
-      <property name="tune" type="float" value="1.800000"/>
+      <property name="tune" type="float" value="1.900000"/>
     </effect>
 
     <effect id="com.alightcreative.effects.oscillate3" locallyApplied="true">
       <property name="angle" type="float">
-        <kf t="0.000000" v="88.000000"/>
-        <kf t="0.968992" v="92.000000"/>
+        <kf t="0.000000" v="88.400000"/>
+        <kf t="0.968992" v="91.600000"/>
       </property>
-      <property name="freq" type="float" value="4.000000"/>
+      <property name="freq" type="float" value="3.800000"/>
       <property name="mag" type="float">
-        <kf t="0.000000" v="28.000000"/>
-        <kf t="0.968992" v="16.000000"/>
+        <kf t="0.000000" v="22.000000"/>
+        <kf t="0.968992" v="10.000000"/>
       </property>
       <property name="phase" type="float" value="0.500000"/>
     </effect>
